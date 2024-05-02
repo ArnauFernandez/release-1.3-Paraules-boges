@@ -1,0 +1,2 @@
+2024-05-02 12:33:27,276 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-05-02 12:34:56,722 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
