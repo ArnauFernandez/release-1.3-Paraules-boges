@@ -23,17 +23,17 @@ def process_file(input_file, output_file):
     except Exception as e:
         logging.error(f"Error al procesar el archivo: {e}")
 
-def process_all_files(input_dir, output_dir, log_dir):
-    """Procesa todos los archivos de texto en el directorio de entrada."""
+def main(input_dir, output_dir, log_dir):
+    """Función principal que procesa todos los archivos de texto en el directorio de entrada."""
     setup_logging(os.path.join(log_dir, "error.log"))
     for filename in os.listdir(input_dir):
         if filename.endswith(".txt"):
             input_file = os.path.join(input_dir, filename)
-            output_file = os.path.join(output_dir, filename.replace(".txt", "_boges.txt"))
+            output_file = os.path.join(output_dir, filename.replace(".txt", "Bojes.txt"))
             process_file(input_file, output_file)
 
 if __name__ == "__main__":
     input_dir = "./entrada"
     output_dir = "./sortida"
     log_dir = "./log"
-    process_all_files(input_dir, output_dir, log_dir)
+    main(input_dir, output_dir, log_dir)
