@@ -1,36 +1,39 @@
 import os
-from crazywords import *
 import logging
-input_dir = "./entrada"
-output_dir = "./sortida"
-log_dir = "./log"
+from crazywords import crazywords  # Asumiendo que crazywords es una función importada desde un módulo llamado 'crazywords'
 
-for filename in os.listdir(input_dir):
-    if filename.endswith(".txt"):
-        input_file = os.path.join(input_dir, filename)
-        output_file = os.path.join(output_dir, filename.replace(".txt", "Bojes.txt"))
-        log_file = os.path.join(log_dir, "error.log")
+def setup_logging(log_file, log_format='%(asctime)s %(levelname)s %(message)s', log_level=logging.DEBUG, log_mode='a'):
+    """Configura el sistema de registro (logging)."""
+    logging.basicConfig(level=log_level, format=log_format, filename=log_file, filemode=log_mode)
 
-#pruebas
-    logFile = log_file
-    logFormat = '%(asctime)s %(levelname)s %(message)s'
-    logLevel = logging.DEBUG
-    logMode = 'a'
-    logging.basicConfig(level=logLevel, format=logFormat, filename=logFile, filemode=logMode)
-
+def process_file(input_file, output_file):
+    """Procesa el archivo de entrada y escribe el resultado en el archivo de salida."""
     try:
-        input_file = open(input_file, mode="rt", encoding='utf-8')
-        output_file = open(output_file, mode="wt", encoding='utf-8')
-        linea = input_file.readline()
-        if linea == "":
-            logging.warning("El archivo de entrada esta vacio")
-        while linea != "":
-            lista_paraules = linea.split(" ")
-            for paraula in lista_paraules:
-                paraula_nova = crazywords(paraula)
-                output_file.write(paraula_nova + " ")
-            output_file.write("\n")
-            linea = input_file.readline()
-        output_file.close()
-    except:
-        logging.error("Error al abrir los archivos")
+        with open(input_file, mode="rt", encoding='utf-8') as input_f, open(output_file, mode="wt", encoding='utf-8') as output_f:
+            linea = input_f.readline()
+            if not linea:
+                logging.warning("El archivo de entrada está vacío")
+            while linea:
+                lista_palabras = linea.split(" ")
+                for palabra in lista_palabras:
+                    palabra_nueva = crazywords(palabra)  # Suponiendo que crazywords es una función que realiza alguna transformación en las palabras
+                    output_f.write(palabra_nueva + "\n")  # Agregamos una línea después de cada palabra
+                linea = input_f.readline()
+            output_f.write("\n")  # Agregamos una línea al final del archivo
+    except Exception as e:
+        logging.error(f"Error al procesar el archivo: {e}")
+
+def process_all_files(input_dir, output_dir, log_dir):
+    """Procesa todos los archivos de texto en el directorio de entrada."""
+    setup_logging(os.path.join(log_dir, "error.log"))
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".txt"):
+            input_file = os.path.join(input_dir, filename)
+            output_file = os.path.join(output_dir, filename.replace(".txt", "_boges.txt"))
+            process_file(input_file, output_file)
+
+if __name__ == "__main__":
+    input_dir = "./entrada"
+    output_dir = "./sortida"
+    log_dir = "./log"
+    process_all_files(input_dir, output_dir, log_dir)
