@@ -1,5 +1,4 @@
 import random
-import main
 
 def crazywords(palabra):
     if len(palabra) <= 2:
