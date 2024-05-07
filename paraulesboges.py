@@ -17,7 +17,7 @@ def process_file(input_file, output_file):
                 lista_palabras = linea.split(" ")
                 for palabra in lista_palabras:
                     palabra_nueva = crazywords(palabra)  # Suponiendo que crazywords es una función que realiza alguna transformación en las palabras
-                    output_f.write(palabra_nueva + "\n")  # Agregamos una línea después de cada palabra
+                    output_f.write(palabra_nueva)  # Agregamos una línea después de cada palabra
                 linea = input_f.readline()
             output_f.write("\n")  # Agregamos una línea al final del archivo
     except Exception as e:
