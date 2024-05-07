@@ -4,3 +4,29 @@
 2024-05-07 19:22:21,715 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
 2024-05-07 19:23:42,549 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
 2024-05-07 19:28:31,667 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-05-07 19:31:14,486 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:14,486 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:14,487 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:14,487 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:14,487 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:14,487 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:14,488 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:14,488 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:14,488 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:14,488 - root - ERROR - Error al procesar el archivo: unknown encoding: utf-161e
+2024-05-07 19:31:30,098 - root - ERROR - Error al procesar el archivo: UTF-16 stream does not start with BOM
+2024-05-07 19:31:30,099 - root - ERROR - Error al procesar el archivo: UTF-16 stream does not start with BOM
+2024-05-07 19:31:30,099 - root - ERROR - Error al procesar el archivo: UTF-16 stream does not start with BOM
+2024-05-07 19:31:30,100 - root - ERROR - Error al procesar el archivo: UTF-16 stream does not start with BOM
+2024-05-07 19:31:30,101 - root - ERROR - Error al procesar el archivo: UTF-16 stream does not start with BOM
+2024-05-07 19:31:30,101 - root - ERROR - Error al procesar el archivo: UTF-16 stream does not start with BOM
+2024-05-07 19:31:30,102 - root - ERROR - Error al procesar el archivo: UTF-16 stream does not start with BOM
+2024-05-07 19:31:30,103 - root - ERROR - Error al procesar el archivo: UTF-16 stream does not start with BOM
+2024-05-07 19:31:30,104 - root - ERROR - Error al procesar el archivo: UTF-16 stream does not start with BOM
+2024-05-07 19:31:30,104 - root - ERROR - Error al procesar el archivo: 'utf-16-le' codec can't decode bytes in position 116-117: illegal encoding
+2024-05-07 19:32:29,932 - root - ERROR - Error al procesar el archivo: 'utf-16-le' codec can't decode byte 0x0a in position 0: truncated data
+2024-05-07 19:32:30,055 - root - ERROR - Error al procesar el archivo: 'utf-16-le' codec can't decode byte 0x0a in position 0: truncated data
+2024-05-07 19:32:30,201 - root - ERROR - Error al procesar el archivo: 'utf-16-le' codec can't decode byte 0x0a in position 0: truncated data
+2024-05-07 19:32:30,581 - root - ERROR - Error al procesar el archivo: 'utf-16-le' codec can't decode byte 0x0a in position 0: truncated data
+2024-05-07 19:32:30,950 - root - ERROR - Error al procesar el archivo: 'utf-16-le' codec can't decode bytes in position 116-117: illegal encoding
+2024-05-07 19:35:29,270 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
