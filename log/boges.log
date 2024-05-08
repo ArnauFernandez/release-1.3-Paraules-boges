@@ -74,3 +74,16 @@
 2024-05-08 12:21:16,568 - root - INFO - Inicio del programa.
 2024-05-08 12:21:16,568 - root - INFO - Directorio de salida creado en: sortida
 2024-05-08 12:21:17,661 - root - INFO - Proceso de archivos completado.
+2024-05-08 12:27:31,364 - root - INFO - Inicio del programa.
+2024-05-08 12:27:31,364 - root - INFO - Directorio de salida creado en: sortida
+2024-05-08 12:27:32,509 - root - INFO - Proceso de archivos completado.
+2024-05-08 12:31:27,157 - root - INFO - Inicio del programa.
+2024-05-08 12:31:27,157 - root - INFO - Directorio de salida creado en: sortida
+2024-05-08 12:31:28,279 - root - INFO - Proceso de archivos completado.
+2024-05-08 12:34:58,760 - root - INFO - Inicio del programa.
+2024-05-08 12:34:58,761 - root - INFO - Directorio de salida creado en: sortida
+2024-05-08 12:34:59,893 - root - INFO - Proceso de archivos completado. Tiempo total: 1.13 segundos
+2024-05-08 12:47:29,468 - root - INFO - Inicio del programa.
+2024-05-08 12:47:29,468 - root - INFO - Directorio de salida creado en: sortida
+2024-05-08 12:47:29,961 - root - ERROR - Error al procesar el archivo 'entrada/x.txt': 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-05-08 12:47:30,250 - root - INFO - Proceso de archivos completado. Tiempo total: 0.78 segundos
