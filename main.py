@@ -1,16 +1,13 @@
-# This is a sample Python script.
+"""
+Eric González, Izan Fernandez, Arnau Fernandez.
+08/05/2024
+M03 UF3
+Descripció: Lliurament R3 ParaulesBoges
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+"""
+import paraulesboges
+if __name__ == "__main__":
+    input_dir = "entrada"
+    output_dir = "sortida"
+    log_dir = "log"
+    paraulesboges.main(input_dir, output_dir, log_dir)

@@ -30,3 +30,31 @@
 2024-05-07 19:32:30,581 - root - ERROR - Error al procesar el archivo: 'utf-16-le' codec can't decode byte 0x0a in position 0: truncated data
 2024-05-07 19:32:30,950 - root - ERROR - Error al procesar el archivo: 'utf-16-le' codec can't decode bytes in position 116-117: illegal encoding
 2024-05-07 19:35:29,270 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-05-08 11:23:41,856 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/paraulesBoges.txt'
+2024-05-08 11:23:41,856 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/diccionariBoges.txt'
+2024-05-08 11:23:41,857 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/17 LEYES DEL TRABAJO EN EQUIPOBoges.txt'
+2024-05-08 11:23:41,857 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/Abe Shana - La última sirenaBoges.txt'
+2024-05-08 11:23:41,857 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/El Oro Y La Ceniza - Abecassis Eliette Boges.txt'
+2024-05-08 11:23:41,857 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/xBoges.txt'
+2024-05-08 11:23:41,857 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/VIVE TU SUEÑO - JOHN MAXWELLBoges.txt'
+2024-05-08 11:23:41,857 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/25 MANERAS DE GANARSE A LA GENTE - Boges.txt'
+2024-05-08 11:23:41,857 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/ACTITUD DE VENCEDOR - JOHN C. MAXWELLBoges.txt'
+2024-05-08 11:23:41,857 - root - ERROR - Error al procesar el archivo: [Errno 2] No such file or directory: 'sortida/SEAMOS PERSONAS DE INFLUENCIA - JOHN MAXWELLBoges.txt'
+2024-05-08 11:28:16,876 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-05-08 11:35:52,923 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-05-08 11:36:10,956 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-05-08 11:39:01,230 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-05-08 11:39:11,848 - root - ERROR - Error al procesar el archivo: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-05-08 11:48:45,024 - root - INFO - Inicio del programa de procesamiento de archivos.
+2024-05-08 11:48:46,206 - root - INFO - Procesamiento de archivos completado correctamente.
+2024-05-08 11:52:21,887 - root - INFO - Inicio del programa de procesamiento de archivos.
+2024-05-08 11:52:22,374 - root - ERROR - Error al procesar el archivo: unknown encoding: ltin_1
+2024-05-08 11:52:22,664 - root - INFO - Proceso de archivos completado correctamente.
+2024-05-08 11:57:46,158 - root - INFO - Inicio del programa.
+2024-05-08 11:57:47,278 - root - INFO - Proceso de archivos completado.
+2024-05-08 11:57:56,641 - root - INFO - Inicio del programa.
+2024-05-08 11:57:57,772 - root - INFO - Proceso de archivos completado.
+2024-05-08 11:58:42,108 - root - INFO - Inicio del programa.
+2024-05-08 11:58:43,244 - root - INFO - Proceso de archivos completado.
+2024-05-08 11:59:42,441 - root - INFO - Inicio del programa.
+2024-05-08 11:59:43,574 - root - INFO - Proceso de archivos completado.
